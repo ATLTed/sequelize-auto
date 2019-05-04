@@ -6,7 +6,8 @@ var Sequelize = require('sequelize')
 
 module.exports = {
   Sequelize: Sequelize,
-
+  _: _,
+  
   initTests: function(options) {
     var sequelize = this.createSequelizeInstance(options)
 
